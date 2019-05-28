@@ -85,7 +85,7 @@ findLongestWordLength(str)
 ## Spatial complexity O(max(n) + m) = O(2) // n = words, m = maxLength;
 
 --------------------------------------------------------------------------
-# Ejercicio 3
+# Exercise 3
 
 Write a function called *sort* that receives an array of numbers and return the
 array in sorted order (ascending) without using the sort method.
@@ -120,7 +120,7 @@ sort(numArray)
 
 --------------------------------------------------------------------------
 
-# Ejercicio 4
+# Exercise 4
 Write a function called anagram that receives two strings and returns true if
 the strings are anagrams, false otherwise.
 Two words are anagrams if one of them has exactly same characters as that of
@@ -181,7 +181,7 @@ Anagram(s, t)
 
 --------------------------------------------------------------------------
 
-#Ejercicio 5
+#Exercise 5
 Write a function called tictactoe that receives a matrix and returns true if
 it's winning for 'X' or 'O'.
 ```javascript
