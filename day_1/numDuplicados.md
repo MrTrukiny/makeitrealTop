@@ -54,8 +54,8 @@ function numDuplicados(str){
 
 console.log(numDuplicados('ababaaaaccdd'));
 ```
-## Temporal complexity O(n + m)
-## Spatial complexity O(1)
+## Temporal complexity = O(n + m)
+## Spatial complexity = O(1)
 
 #### JavaScript with split and forEach methods
 
@@ -81,5 +81,5 @@ function numDuplicados(str) {
   return count;
 }
 ```
-## Temporal complexity O(n + m + o) // o = split, it counts like a for
-## Spatial complexity O(1) // n = words, m = maxLength;
+## Temporal complexity = O(n + m + o) // o = split, it counts like a for
+## Spatial complexity = O(1) // Just one Object

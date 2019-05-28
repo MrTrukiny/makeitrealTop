@@ -38,8 +38,8 @@ repeatedChars(str1, str2)
 
 	return newStr // "gera"
 ```
-## Temporal complexity O(n * m * min(n, m))
-## Spatial complexity O(min(n, m))
+## Temporal complexity = O(n * m * min(n, m))
+## Spatial complexity = O(min(n, m))
 
 ---------------------------------------------------------------------------
 # Exercise 2
@@ -81,8 +81,8 @@ findLongestWordLength(str)
 	return maxLength
 ```
 
-## Temporal complexity O(n * m) // split counts like a for
-## Spatial complexity O(max(n) + m) = O(2) // n = words, m = maxLength;
+## Temporal complexity = O(n * m) // split counts like a for
+## Spatial complexity = O(max(n) + m) = O(2) // n = words, m = maxLength;
 
 --------------------------------------------------------------------------
 # Exercise 3
@@ -115,8 +115,8 @@ sort(numArray)
 
 ## Insertion sort
 
-## Temporal complexity O(n^2)
-## Spatial complexity O(1)
+## Temporal complexity = O(n^2)
+## Spatial complexity = O(1)
 
 --------------------------------------------------------------------------
 
