@@ -93,7 +93,7 @@ array in sorted order (ascending) without using the sort method.
 console.log(sort([5, 8, 3, 0, 7])); // [0, 3, 5, 7, 8]
 ```
 
-### Bubble sort
+### Selection sort
 ```
 sort(numArray)
 
