@@ -1,9 +1,6 @@
 # Recursion
 
-## 1. Write a function called `factorial` that receives a number and returns the
-factorial of the number. The factorial is the multiplication of every positive
-number up to the number. For example, the factorial of 5 is 120 because
-`5 * 4 * 3 * 2 * 1 = 120`.
+## 1. Write a function called `factorial` that receives a number and returns the factorial of the number. The factorial is the multiplication of every positive number up to the number. For example, the factorial of 5 is 120 because `5 * 4 * 3 * 2 * 1 = 120`.
 
 ```javascript
 console.log(factorial(4)); // 24
@@ -29,9 +26,7 @@ const factorial = (n) => {
 }
 ```
 
-## 2. Write a function called `fibonacci` that receives a number and returns the
-## `n` number of the [fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number)
-## sequence.
+## 2. Write a function called `fibonacci` that receives a number and returns the `n` number of the [fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) sequence.
 
 ```javascript
 console.log(fibonacci(0)); // 1
@@ -74,8 +69,7 @@ function fibonacci(num, memo) {
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
 ```
-## 3. Write a function called `flatten` that receives an array of arrays and
-## returns a flattened array.
+## 3. Write a function called `flatten` that receives an array of arrays and returns a flattened array.
 ```javascript
 console.log(flatten([[1, 2, 3], [4, 5]])); // [1, 2, 3, 4, 5]
 console.log(flatten([[[1, [1.1]], 2, 3], [4, 5]])); // [1, 1.1, 2, 3, 4, 5]
@@ -94,9 +88,7 @@ function flatten(array) {
 }
 ```
 
-## 4. Write a function called `collatz` that receives a number and returns the
-## number of steps it takes to reach 1. **The Collatz Conjecture** (also called 3x
-## + 1 problem) is the following:
+## 4. Write a function called `collatz` that receives a number and returns the number of steps it takes to reach 1. **The Collatz Conjecture** (also called 3x + 1 problem) is the following:
 ```
 Take any positive integer n. If n is even, divide n by 2 to get n / 2. If n is
 odd, multiply n by 3 and add 1 to get 3n + 1. Repeat the process indefinitely.
@@ -150,8 +142,7 @@ let collatz = (num, store) => {
 };
 ```
 
-## 5. Write a function called `pascal` that receives a number and returns a
-## string with a **Pascal triangle**.
+## 5. Write a function called `pascal` that receives a number and returns a string with a **Pascal triangle**.
 
 ```javascript
 console.log(pascal(2));
