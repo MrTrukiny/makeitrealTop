@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+.mainbox {
+  display: flex;
+  max-width: 1000px;
+  min-height: 750px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.contacts {
+  display: inline-block;
+  background-color: #343a40;
+  width: 270px;
+  height: 750px;
+}
+
+.contacts .user {
+  position: relative;
+}
+
+.contacts .user .state {
+  font-size: 0.6rem;
+  color: lightgrey;
+  padding: 10px 10px 10px 20px;
+}
+
+.contacts .user.active {
+  background-color: #007bff;
+}
+
+.user .state.active i.fa-circle {
+  background-color: rgb(24, 255, 24);
+  color:rgb(24, 255, 24);
+  border-radius: 50%;
+}
+
+.contacts .user.active .name {
+  font-weight: bold;
+  color: white;
+}
+
+
+.contacts .user .name {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: lightgrey;
+}
+
+.contacts .user .fa-ellipsis-v {
+  position: absolute;
+  margin-top: 15px;
+  right: 25px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.conversation {
+  display: inline-block;
+  height: 750px;
+  width: 100%;
+}
+
+.conversation .close-chat {
+  padding: 0px 20px;
+  text-align: right;
+  height: 5%;
+  border: 1px solid lightgray;
+}
+
+.conversation .chat {
+  height: 85%;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.conversation .type-zone {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  border: 1px solid lightgray;
+justify-content: center;
+}
+
+.conversation .type-zone .message {
+  width: 90%;
+  height: 40px;
+  padding: 10px 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: right;
+}

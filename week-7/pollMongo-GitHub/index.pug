@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Hola Mundo
+  
+  each poll in polls
+    div
+      h3 Nombre: #{poll.title} 
+      p Creador: #{poll.user.email}
+      p Descripción: #{poll.description}
+      p Opciones: 
+      p Votos: #{options}
+      a(href="/polls/#{poll._id}/vote") Votar

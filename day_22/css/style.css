@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  height: 100%;
+}
+
+.mainbox {
+  display: flex;
+  max-width: 1000px;
+  min-height: 750px;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.contacts {
+  display: inline-block;
+  background-color: #343a40;
+  width: 270px;
+  height: 750px;
+}
+
+.contacts .user {
+  position: relative;
+}
+
+.contacts .user .state {
+  font-size: 0.6rem;
+  color: lightgrey;
+  padding: 10px 10px 10px 20px;
+}
+
+.contacts .user.active {
+  background-color: #007bff;  
+}
+
+.user .state.active i.fa-circle {
+  background-color: rgb(24, 255, 24); 
+  color:rgb(24, 255, 24); 
+  border-radius: 50%; 
+}
+
+.contacts .user.active .name {
+  font-weight: 500;
+  color: white;
+}
+
+
+.contacts .user .name {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: lightgrey;
+}
+
+.contacts .user .fa-ellipsis-v {  
+  position: absolute;
+  margin-top: 15px; 
+  right: 25px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.conversation {
+  display: inline-block;
+  height: 750px;
+  width: 100%;
+}
+
+.conversation .close-chat {
+  height: 5%;
+  border: 1px solid lightgray;
+  border-bottom: none;
+  color: gray;
+}
+
+.conversation .close-chat p {
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  text-align: right;
+  margin: 0;
+}
+
+.conversation .chat {
+  height: 85%;
+  width: 100%;
+  overflow-y: scroll;
+  border: 1px solid lightgray;
+  border-bottom: none;
+}
+
+.conversation .chat .message {
+  padding-bottom: 5px; 
+  margin-left: 10px;
+  height: 50px;
+}
+
+.conversation .chat .message .title {  
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: gray;
+  margin: 20px 10px 10px;
+}
+
+.conversation .chat .message .title span{
+  font-weight: 400;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.conversation .chat .message .text {  
+  font-size: 0.9rem;
+  margin: 0 10px 10px;
+}
+
+.conversation .type-zone {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  border: 1px solid lightgray;
+  justify-content: center;
+}
+
+.conversation .type-zone .send{
+  margin-top: 10px;
+  width: 95%;
+  height: 40px;
+  padding: 7px 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.conversation .type-zone i {
+  display: block;
+  position: relative;
+  top: 22px;
+  right: 30px;
+  color: gray;
+  font-size: 1rem;
+}

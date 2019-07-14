@@ -1,0 +1,98 @@
+/* HEADER STYLES */
+body {
+  font-size: 14px;
+  background: #00bfff no-repeat center;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #026aa7;
+  font-size: 1.5rem;
+}
+
+header span.square-styles {
+  background-color: #00bfff;
+  border-radius: 5%;
+}
+
+.fas {
+  color: white;
+}
+
+.fab {
+  color: white;
+}
+
+.far {
+  color: white;
+}
+
+.body-page {
+  color: white;
+  background-color: #0080ff;
+}
+
+.board-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+ .board-menu span {
+   margin: 0 5px;
+ }
+
+.board-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/* HEADER STYLES */
+body{
+  font-size: 14px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #026aa7;
+  font-size: 1.5rem;
+}
+
+header span.square-styles {
+  background-color: #00bfff;
+  border-radius: 5%;
+}
+
+.fas {
+  color: white;
+}
+
+.fab {
+  color: white;
+}
+
+.far {
+  color: white;
+}
+
+.body-page {
+  color: white;
+  background: #00bfff no-repeat center;
+  background-attachment: fixed;
+}
+
+.board-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.task-cards {
+  font-size: 1.4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.card {
+    width: 200px;
+    flex: 0 0 auto;
+}
