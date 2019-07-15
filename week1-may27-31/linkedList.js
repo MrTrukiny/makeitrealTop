@@ -118,10 +118,13 @@ let list = new LinkedList();
 list.add(5);
 list.add(10);
 list.add(15);
+list.add(20);
 
 console.log(list);
-
+console.log(list.valueAt(0));
+console.log(list.valueAt(1));
 console.log(list.valueAt(2));
+console.log(list.valueAt(3));
 
 list.length();
 
