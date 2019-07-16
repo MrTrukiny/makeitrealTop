@@ -101,9 +101,9 @@ function LinkedList() {
     };
 	};
   // Reverse, recursive solution, O(n) time & O(n) space
-  this.reverseLinkedList = function(curr, prev) {
+  this.reverse = function(curr, prev) {
     if (curr.next) {
-      const newHead = reverseLinkedList(curr.next, curr);
+      const newHead = reverse(curr.next, curr);
       curr.next = prev;
       return newHead; // pass the new head up the list
     }
@@ -130,18 +130,18 @@ list.add(15);
 list.add(20);
 list.add(25);
 
-// console.log(list);
-// console.log(list.valueAt(0));
-// console.log(list.valueAt(1));
-// console.log(list.valueAt(2));
-// console.log(list.valueAt(3));
+console.log(list);
+console.log(list.valueAt(0));
+console.log(list.valueAt(1));
+console.log(list.valueAt(2));
+console.log(list.valueAt(3));
 
-// list.length();
+list.length();
 
-// list.removeFrom(0);
+list.removeFrom(0);
 
-// console.log(list);
+console.log(list);
 
-// console.log(list.head)
+console.log(list.head)
 
 console.log(list.middle());
