@@ -79,7 +79,8 @@ class BinaryTree {
     traverse(this.root);
     return finalData;
   }
-  reverse (node) {
+
+  reverse(node) {
     const invertTree = (root) => {
       if (root) {
           let tmp = root.left;
@@ -90,9 +91,21 @@ class BinaryTree {
     }
     return invertTree(node.root);
   }
+
+  pathSum(tree, num) {
+    const hasPathSum = (root, sum) => {
+      if (!root) {
+        return false;
+      } else if (!root.left && !root.right && root.data === sum) {
+        return true;
+      } else {
+        return hasPathSum(root.left, sum - root.data) || hasPathSum(root.right, sum - root.data)
+      }
+    }
+    return hasPathSum(tree.root, num);
+  }
+  
 }
-
-
 
 let bT = new BinaryTree();
 
@@ -111,3 +124,5 @@ console.log(bT);
 console.log(bT.traverseBFS());
 console.log(bT.traverseDFS());
 console.log(bT.reverse(bT));
+console.log(bT.pathSum(bT, 13));
+console.log(bT.pathSum(bT, 7));
