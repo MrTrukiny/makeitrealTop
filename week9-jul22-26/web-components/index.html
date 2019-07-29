@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="error.css"/>
+  <title>Web Components</title>
+</head>
+<body>
+  <script src="components.js"></script>
+  <script src="button.js"></script>
+
+  <h1>Web components</h1>
+
+  <basic-greeting name="Fabio"></basic-greeting>
+
+  <template id="notification">
+    <link rel="stylesheet" href="error.css"/>     
+      <p class="icon">
+        <img alt="Error" src="error_button_1.png" />
+      </p>
+      <div class="body">
+        <h3 class="title"><strong>Error de guardado</strong></h3>
+        <p>Tenemos problemas para comunicarnos con los servidores.</p>
+        <p><button class="action">Intentar de nuevo</button></p>
+      </div>
+  </template>
+
+  <error-info></error-info> 
+<!-- 
+  <form>
+    <button is="deactivable-button" type="button" id="save">
+      Guardar cambios
+    </button>
+  <form> -->
+
+
+</body>
+</html>
