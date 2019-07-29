@@ -26,8 +26,6 @@ const testExp = {
   }
 }
 
-let keysRegExp = Object.keys(regExp)
-
 // // Card Plates
 // console.log(regExp.cardPlate.test(testExp.cardPlate.one))
 // console.log(regExp.cardPlate.test(testExp.cardPlate.two))
